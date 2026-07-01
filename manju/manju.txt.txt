@@ -1,0 +1,13 @@
+#with open("manju.txt","w")as f:
+    #f.write("had your breakfast ...?")
+#with open("manju.txt","r")as f:
+ #   data=f.read()
+  #  print(data)
+
+with open ("manju.txt","a")as f:
+    f.write ("i am a Btech student")
+
+with open("manju.txt","r")as f:
+    data=f.read()
+    print(data)
+
